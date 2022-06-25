@@ -25,6 +25,10 @@ ignore:
   - DBM-Unified/DBM-Core/Libs/LibDeflate/changelog.md
   - DBM-Unified/DBM-Core/Libs/LibStub/tests
   - DBM-Unified/DBM-Core/Libs/LibDataBroker-1.1/README.textile
+  - DBM-Outlands/LICENSE
+  - DBM-Outlands/README.md
+  - DBM-Unified/LICENSE
+  - DBM-Unified/README.md
   - DBM-VPVEM/README.md
   - DBM-Placeholder
 
@@ -54,3 +58,4 @@ move-folders:
   DBM-Placeholder/DBM-Unified/DBM-GUI: DBM-GUI
   DBM-Placeholder/DBM-Unified/DBM-StatusBarTimers: DBM-StatusBarTimers
   DBM-Placeholder/DBM-VPVEM/DBM-VPVEM: DBM-VPVEM
+  DBM-Placeholder/CHANGELOG.md: DBM-CORE/CHANGELOG.md
