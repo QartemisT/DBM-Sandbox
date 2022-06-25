@@ -1,4 +1,4 @@
-package-as: DBM-Outlands
+package-as: DBM-Placeholder
 
 externals:
   DBM-Outlands: https://github.com/DeadlyBossMods/DBM-BCC
@@ -26,6 +26,7 @@ ignore:
   - DBM-Unified/DBM-Core/Libs/LibStub/tests
   - DBM-Unified/DBM-Core/Libs/LibDataBroker-1.1/README.textile
   - DBM-VPVEM/README.md
+  - DBM-Placeholder
 
 enable-nolib-creation: no
 
