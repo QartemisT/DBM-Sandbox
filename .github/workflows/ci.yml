@@ -16,21 +16,9 @@ jobs:
         with:
           fetch-depth: 100
 
-      - name: Install and run Luacheck
-        uses: nebularg/actions-luacheck@v1
-        with:
-          args: "--no-color -q"
-
       - name: Create Package
         uses: QartemisT/packager@master
         with:
           args: -g bcc -n "DBM-{project-version}{classic}"
         env:
           GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Send Status to Discord
-        uses: nebularg/actions-discord-webhook@v1
-        with:
-          webhook_url: ${{ secrets.DISCORD_WEBHOOK }}
-          status: ${{ job.status }}
-        if: ${{ failure() }}
