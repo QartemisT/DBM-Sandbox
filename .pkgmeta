@@ -1,7 +1,8 @@
 package-as: DBM-Placeholder
 
 externals:
-  DBM-Outlands: https://github.com/DeadlyBossMods/DBM-BCC
+  DBM-WOTLKC: https://github.com/DeadlyBossMods/DBM-WoTLK
+  DBM-BCC: https://github.com/DeadlyBossMods/DBM-BCC
   DBM-Unified: https://github.com/DeadlyBossMods/DBM-Unified
   DBM-Unified/DBM-Core/Libs/CallbackHandler-1.0: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
   DBM-Unified/DBM-Core/Libs/LibChatAnims: https://repos.wowace.com/wow/libchatanims/trunk/LibChatAnims
@@ -25,6 +26,8 @@ ignore:
   - DBM-Unified/DBM-Core/Libs/LibDeflate/changelog.md
   - DBM-Unified/DBM-Core/Libs/LibStub/tests
   - DBM-Unified/DBM-Core/Libs/LibDataBroker-1.1/README.textile
+  - DBM-Icecrown/LICENSE
+  - DBM-Icecrown/README.md
   - DBM-Outlands/LICENSE
   - DBM-Outlands/README.md
   - DBM-Unified/LICENSE
@@ -35,27 +38,38 @@ ignore:
 enable-nolib-creation: no
 
 move-folders:
-  DBM-Placeholder/DBM-Outlands/DBM-Party-Classic: DBM-Party-Classic
-  DBM-Placeholder/DBM-Outlands/DBM-Party-BC: DBM-Party-BC
-  DBM-Placeholder/DBM-Outlands/DBM-AQ20: DBM-AQ20
-  DBM-Placeholder/DBM-Outlands/DBM-AQ40: DBM-AQ40
-  DBM-Placeholder/DBM-Outlands/DBM-Azeroth: DBM-Azeroth
-  DBM-Placeholder/DBM-Outlands/DBM-BlackTemple: DBM-BlackTemple
-  DBM-Placeholder/DBM-Outlands/DBM-BWL: DBM-BWL
-  DBM-Placeholder/DBM-Outlands/DBM-Hyjal: DBM-Hyjal
-  DBM-Placeholder/DBM-Outlands/DBM-Karazhan: DBM-Karazhan
-  DBM-Placeholder/DBM-Outlands/DBM-MC: DBM-MC
-  DBM-Placeholder/DBM-Outlands/DBM-Naxx: DBM-Naxx
-  DBM-Placeholder/DBM-Outlands/DBM-Onyxia: DBM-Onyxia
-  DBM-Placeholder/DBM-Outlands/DBM-Outlands: DBM-Outlands
-  DBM-Placeholder/DBM-Outlands/DBM-Serpentshrine: DBM-Serpentshrine
-  DBM-Placeholder/DBM-Outlands/DBM-Sunwell: DBM-Sunwell
-  DBM-Placeholder/DBM-Outlands/DBM-TheEye: DBM-TheEye
-  DBM-Placeholder/DBM-Outlands/DBM-ZG: DBM-ZG
-  DBM-Placeholder/DBM-Outlands/DBM-ZulAman: DBM-ZulAman
-  DBM-Placeholder/DBM-Outlands/DBM-WorldEvents: DBM-WorldEvents
+  DBM-Placeholder/DBM-BCC/DBM-Party-Classic: DBM-Party-Classic
+  DBM-Placeholder/DBM-BCC/DBM-Party-BC: DBM-Party-BC
+
+  DBM-Placeholder/DBM-WOTLKC/DBM-ChamberOfAspects: DBM-ChamberOfAspects
+  DBM-Placeholder/DBM-WOTLKC/DBM-Coliseum: DBM-Coliseum
+  DBM-Placeholder/DBM-WOTLKC/DBM-EyeOfEternity: DBM-EyeOfEternity
+  DBM-Placeholder/DBM-WOTLKC/DBM-Icecrown: DBM-Icecrown
+  DBM-Placeholder/DBM-WOTLKC/DBM-Naxx: DBM-Naxx
+  DBM-Placeholder/DBM-WOTLKC/DBM-Onyxia: DBM-Onyxia
+  DBM-Placeholder/DBM-WOTLKC/DBM-Ulduar: DBM-Ulduar
+  DBM-Placeholder/DBM-WOTLKC/DBM-VoA: DBM-VoA
+
+  DBM-Placeholder/DBM-BCC/DBM-AQ20: DBM-AQ20
+  DBM-Placeholder/DBM-BCC/DBM-AQ40: DBM-AQ40
+  DBM-Placeholder/DBM-BCC/DBM-Azeroth: DBM-Azeroth
+  DBM-Placeholder/DBM-BCC/DBM-BlackTemple: DBM-BlackTemple
+  DBM-Placeholder/DBM-BCC/DBM-BWL: DBM-BWL
+  DBM-Placeholder/DBM-BCC/DBM-Hyjal: DBM-Hyjal
+  DBM-Placeholder/DBM-BCC/DBM-Karazhan: DBM-Karazhan
+  DBM-Placeholder/DBM-BCC/DBM-MC: DBM-MC
+  DBM-Placeholder/DBM-BCC/DBM-Onyxia: DBM-Onyxia
+  DBM-Placeholder/DBM-BCC/DBM-Outlands: DBM-Outlands
+  DBM-Placeholder/DBM-BCC/DBM-Serpentshrine: DBM-Serpentshrine
+  DBM-Placeholder/DBM-BCC/DBM-Sunwell: DBM-Sunwell
+  DBM-Placeholder/DBM-BCC/DBM-TheEye: DBM-TheEye
+  DBM-Placeholder/DBM-BCC/DBM-ZG: DBM-ZG
+  DBM-Placeholder/DBM-BCC/DBM-ZulAman: DBM-ZulAman
+  DBM-Placeholder/DBM-BCC/DBM-WorldEvents: DBM-WorldEvents
   DBM-Placeholder/DBM-Unified/DBM-Core: DBM-Core
   DBM-Placeholder/DBM-Unified/DBM-GUI: DBM-GUI
   DBM-Placeholder/DBM-Unified/DBM-StatusBarTimers: DBM-StatusBarTimers
   DBM-Placeholder/DBM-VPVEM/DBM-VPVEM: DBM-VPVEM
+
+  DBM-Placeholder/DBM-BCC/DBM-Naxx: DBM-Placeholder/DBM-Naxx
   DBM-Placeholder/CHANGELOG.md: DBM-CORE/CHANGELOG.md
